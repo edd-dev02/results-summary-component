@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+
+<body>
+
+  <main>
+
+    <div class="grid container">
+
+      <section class="result">
+
+        <h1 class="result__title">Your result</h1>
+
+        <div class="result__numbers">
+          <p class="numbers__obtained">76</p>
+
+          <p class="numbers__total">of 100</p>
+        </div>
+
+        <div class="result__message">
+          <h2 class="message__title">Great</h2>
+          <p class="message__description">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+
+      </section>
+
+      <section class="stats"> 
+
+        <h3 class="stats__title">Summary</h3>
+
+        <div class="stats__categorys">
+
+          <!--Reaction-->
+          <div class="categorys__reaction flex--align">
+            <img src="./assets/images/icon-reaction.svg" class = "reaction__icon" alt="reaction stat icon">
+            <p class="reaction__text">Reaction</p>
+            <p class="reaction__result">80<span class="reaction__result--obtained"> / 100</span></p>
+          </div>
+
+          <!--Memory-->
+          <div class="categorys__memory flex--align">
+            <img src="./assets/images/icon-memory.svg" class="memory__icon" alt="memory stat icon">
+            <p class="memory__text">Memory</p>
+            <p class="memory__result">92<span class="memory__result--obtained"> / 100 </span></p>
+          </div>
+
+          <!--Verbal-->
+          <div class="categorys__verbal flex--align">
+            <img src="./assets/images/icon-verbal.svg" class="verbal__icon" alt="verbal stat icon">
+            <p class="verbal__text">Verbal</p>
+            <p class="verbal__result">61<span class="verbal__result--obtained"> / 100</span></p>
+          </div>
+
+          <!--Visual-->
+          <div class="categorys__visual flex--align">
+            <img src="./assets/images/icon-visual.svg" class="visual__icon" alt="visual stat icon">
+            <p class="visual__text">Visual</p>
+            <p class="visual__result">61<span class="visual__result--obtained"> / 100</span></p>
+          </div>
+
+        </div>
+
+        <button type="button" class="stats__button">Continue</button>
+
+      </section>
+
+      
+
+    </div>
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/edd-dev02/">Eduardo Antonio Sandoval Adame</a>.
+  </div>
+</body>
+
+</html>
