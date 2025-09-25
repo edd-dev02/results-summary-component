@@ -47,7 +47,9 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+**“I improved my ability to structure HTML elements and apply classes correctly using the BEM methodology. I also refreshed my CSS skills by implementing Grid and Flexbox, and reinforced my knowledge of gradients.
+
+The main challenge was the Desktop view, as I initially used several unnecessary containers in my HTML structure. After some refactoring, the final result turned out quite close to the original design.”**
 
 ## Author
 
